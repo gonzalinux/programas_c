@@ -29,8 +29,10 @@ int main(int argc, char** argv){
         execvp(argumentos[0],argumentos);
 
       }
-      else
+      else{
+        cualarg=1;
       printf("xd");
+      }
         execvp(argumentos2[0], argumentos2);
 
         exit(0);
