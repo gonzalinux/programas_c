@@ -47,7 +47,7 @@ sleep(atoi(argv[1])*60);
 
     while(condicion){
       sleep(2);
-      x++;
+      x+=2;
       printf("2sec\n");
       if(x==30){
         kill(pid1,9);
